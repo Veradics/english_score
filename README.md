@@ -6,11 +6,16 @@
 
 Before training, he text data was first preprocessed by removing unnecessary fragments and stopwords, lemmatizing the words, and also transforming the text into numerical features using *the CountVectorizer* and *TfidfTransformer*. Then the SGDClassifier algorithm was used with *GridSearchCV* to optimize the hyperparameters.
 
-**The best achieved f1_score on the test set:** 0.624 \
+**The best achieved f1_score on the test set:** 0.632 \
 **The best achieved f1_score on the train set:** 0.622
 
+Furthermore, a Streamlit application was developed to facilitate the process of determining the level of difficulty for English language learning in movies by simply uploading an srt file.
+
 ### Files in directory:
-- `english_score_notebook.ipynb` - notebook with data preprocessing and optimization ML model 
+- `english_score_notebook.ipynb` - notebook with data preprocessing and optimization ML model
+- `app.py` - streamlit application file
+- `sgd_model.pcl` - compressed model
+- `movie_emage.jpg` - image for streamlit application
 
 ### Used libraries:
-*Pandas, Numpy, Matplotlib, NLTK, SpaCy, Scikit-learn*
+*Pandas, Numpy, Matplotlib, NLTK, SpaCy, Scikit-learn, Pickle, Streamlit*
