@@ -6,3 +6,4 @@ pysrt==1.1.2
 scikit-learn==1.2.1
 spacy==3.5.2
 streamlit==1.19.0
+altair==4.1.0
