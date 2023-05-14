@@ -89,6 +89,9 @@ def clean_text(text):
 
 
 def prepare_srt(srt_file):
+    """
+    Prepare subtitles text for model.
+    """
     srt_text = srt_file.read().decode('iso-8859-1')
     subs = pysrt.from_string(srt_text)
     subs = ' '.join([sub.text for sub in subs])
@@ -106,4 +109,4 @@ if srt_file is not None:
     model = load()
     y_predict = model.predict([subs])
 
-    st.subheader(f'Predicted Engish level: {y_predict[0]}')
+    st.subheader(f'Predicted English level: {y_predict[0]}')
