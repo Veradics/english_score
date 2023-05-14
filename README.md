@@ -9,7 +9,7 @@ Before training, he text data was first preprocessed by removing unnecessary fra
 **The best achieved f1_score on the test set:** 0.632 \
 **The best achieved f1_score on the train set:** 0.622
 
-Furthermore, a Streamlit application was developed to facilitate the process of determining the level of difficulty for English language learning in movies by simply uploading an srt file.
+Furthermore, a [Streamlit application](https://veradics-english-score-app-ijccfp.streamlit.app/) was developed to facilitate the process of determining the level of difficulty for English language learning in movies by simply uploading an srt file.
 
 ### Files in directory:
 - `english_score_notebook.ipynb` - notebook with data preprocessing and optimization ML model
