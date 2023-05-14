@@ -5,6 +5,4 @@ pandas==1.5.3
 pysrt==1.1.2
 scikit-learn==1.2.1
 spacy==3.5.2
-spacy-legacy==3.0.12
-spacy-loggers==1.0.4
 streamlit==1.19.0
