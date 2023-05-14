@@ -10,11 +10,11 @@ from nltk.corpus import stopwords as nltk_stopwords
 
 # load the trained model
 def load():
-    with open('D:\\Projects_hub\\english_score\\sgd_model.pcl', 'rb') as fid:
+    with open('./sgd_model.pcl', 'rb') as fid:
         return pickle.load(fid)
 
 # image
-st.image('movie_image.jpg', caption=' Lights, camera, action!')
+st.image('./movie_image.jpg', caption=' Lights, camera, action!')
 
 # heading
 st.header('Find out the level of English in the movie!')
